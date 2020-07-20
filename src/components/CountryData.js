@@ -69,18 +69,16 @@ export default function CountryData() {
         return ( <
             div >
             <
-            Typography variant = "h4"
+            Typography variant = "h8"
             gutterBottom style = {
-                { color: "black" }
-            } > { " " } { "Country Data" } { " " } <
+                { color: "black" } } > { " " } { "Country Data" } { " " } <
             /Typography>{" "} <
             div >
             <
             Button ariaControls = "simple-menu"
             ariaHaspopup = "true"
             style = {
-                { backgroundColor: "purple", color: "white" }
-            }
+                { backgroundColor: "purple", color: "white" } }
             onClick = { handleClick } >
             Select Country { " " } <
             /Button>{" "} <
@@ -104,77 +102,69 @@ export default function CountryData() {
             MenuItem onClick = { handleClose } > China - CN < /MenuItem>{" "} <
             MenuItem onClick = { handleClose } > Iran - IR < /MenuItem>{" "} <
             MenuItem onClick = { handleClose } > Canada - CA < /MenuItem>{" "} <
-            MenuItem onClick = { handleClose } > Germany - GE < /MenuItem>{" "} < /
-            Menu > { " " } <
+            MenuItem onClick = { handleClose } > Germany - GE < /MenuItem>{" "} <
+            /Menu>{" "} <
             /div>{" "} <
             div className = { classes.root } > { " " } <
             Paper elevation = { 3 } >
             <
             div className = { clss.root } >
             <
-            Typography variant = "h4"
+            Typography variant = "h8"
             gutterBottom style = {
-                { color: "black" }
-            } > { " " } { "Loading" } { " " } <
+                { color: "black" } } > { " " } { "Loading" } { " " } <
             /Typography>{" "} <
             Typography variant = "subtitle1"
             gutterBottom style = {
-                { color: "black", fontWeight: "bold" }
-            } >
+                { color: "black", fontWeight: "bold" } } >
             Total cases { " " } <
-            /Typography>{" "} < /
-            div > { " " } <
+            /Typography>{" "} <
+            /div>{" "} <
             /Paper>{" "} <
             Paper elevation = { 3 } >
             <
             div className = { clss.root } >
             <
-            Typography variant = "h4"
+            Typography variant = "h8"
             gutterBottom style = {
-                { color: "orange" }
-            } > { " " } { "Loading" } { " " } <
+                { color: "orange" } } > { " " } { "Loading" } { " " } <
             /Typography>{" "} <
             Typography variant = "subtitle1"
             gutterBottom style = {
-                { color: "orange", fontWeight: "bold" }
-            } >
+                { color: "orange", fontWeight: "bold" } } >
             Active { " " } <
-            /Typography>{" "} < /
-            div > { " " } <
+            /Typography>{" "} <
+            /div>{" "} <
             /Paper>{" "} <
             Paper elevation = { 3 } > { " " } <
             div className = { clss.root } >
             <
-            Typography variant = "h4"
+            Typography variant = "h8"
             gutterBottom style = {
-                { color: "green" }
-            } > { " " } { "Loading" } { " " } <
+                { color: "green" } } > { " " } { "Loading" } { " " } <
             /Typography>{" "} <
             Typography variant = "subtitle1"
             gutterBottom style = {
-                { color: "green", fontWeight: "bold" }
-            } >
+                { color: "green", fontWeight: "bold" } } >
             Recovered { " " } <
-            /Typography>{" "} < /
-            div > { " " } <
+            /Typography>{" "} <
+            /div>{" "} <
             /Paper>{" "} <
             Paper elevation = { 3 } > { " " } <
             div className = { clss.root } >
             <
-            Typography variant = "h4"
+            Typography variant = "h8"
             gutterBottom style = {
-                { color: "red" }
-            } > { " " } { "Loading" } { " " } <
+                { color: "red" } } > { " " } { "Loading" } { " " } <
             /Typography>{" "} <
             Typography variant = "subtitle1"
             gutterBottom style = {
-                { color: "red", fontWeight: "bold" }
-            } >
+                { color: "red", fontWeight: "bold" } } >
             Fatalities { " " } <
-            /Typography>{" "} < /
-            div > { " " } <
-            /Paper>{" "} < /
-            div > { " " } <
+            /Typography>{" "} <
+            /div>{" "} <
+            /Paper>{" "} <
+            /div>{" "} <
             /div>
         );
     }
@@ -182,18 +172,16 @@ export default function CountryData() {
     return ( <
         div >
         <
-        Typography variant = "h4"
+        Typography variant = "h8"
         gutterBottom style = {
-            { color: "black" }
-        } > { " " } { "Country Data" } { " " } <
+            { color: "black" } } > { " " } { "Country Data" } { " " } <
         /Typography>{" "} <
         div >
         <
         Button ariaControls = "simple-menu"
         ariaHaspopup = "true"
         style = {
-            { backgroundColor: "purple", color: "white" }
-        }
+            { backgroundColor: "purple", color: "white" } }
         onClick = { handleClick } >
         Select Country { " " } <
         /Button>{" "} <
@@ -217,18 +205,17 @@ export default function CountryData() {
         MenuItem onClick = { handleClose } > China - CN < /MenuItem>{" "} <
         MenuItem onClick = { handleClose } > Iran - IR < /MenuItem>{" "} <
         MenuItem onClick = { handleClose } > Canada - CA < /MenuItem>{" "} <
-        MenuItem onClick = { handleClose } > Germany - GE < /MenuItem>{" "} < /
-        Menu > { " " } <
+        MenuItem onClick = { handleClose } > Germany - GE < /MenuItem>{" "} <
+        /Menu>{" "} <
         /div>{" "} <
         div className = { classes.root } > { " " } <
         Paper elevation = { 3 } >
         <
         div className = { clss.root } >
         <
-        Typography variant = "h4"
+        Typography variant = "h8"
         gutterBottom style = {
-            { color: "black" }
-        } > { " " } {
+            { color: "black" } } > { " " } {
             countryData &&
                 countryData.countrydata &&
                 countryData.countrydata[0].total_cases
@@ -236,20 +223,18 @@ export default function CountryData() {
         /Typography>{" "} <
         Typography variant = "subtitle1"
         gutterBottom style = {
-            { color: "black", fontWeight: "bold" }
-        } >
+            { color: "black", fontWeight: "bold" } } >
         Total cases { " " } <
-        /Typography>{" "} < /
-        div > { " " } <
+        /Typography>{" "} <
+        /div>{" "} <
         /Paper>{" "} <
         Paper elevation = { 3 } >
         <
         div className = { clss.root } >
         <
-        Typography variant = "h4"
+        Typography variant = "h8"
         gutterBottom style = {
-            { color: "orange" }
-        } > { " " } {
+            { color: "orange" } } > { " " } {
             countryData &&
                 countryData.countrydata &&
                 countryData.countrydata[0].total_active_cases
@@ -257,19 +242,17 @@ export default function CountryData() {
         /Typography>{" "} <
         Typography variant = "subtitle1"
         gutterBottom style = {
-            { color: "orange", fontWeight: "bold" }
-        } >
+            { color: "orange", fontWeight: "bold" } } >
         Active { " " } <
-        /Typography>{" "} < /
-        div > { " " } <
+        /Typography>{" "} <
+        /div>{" "} <
         /Paper>{" "} <
         Paper elevation = { 3 } > { " " } <
         div className = { clss.root } >
         <
-        Typography variant = "h4"
+        Typography variant = "h8"
         gutterBottom style = {
-            { color: "green" }
-        } > { " " } {
+            { color: "green" } } > { " " } {
             countryData &&
                 countryData.countrydata &&
                 countryData.countrydata[0].total_recovered
@@ -277,19 +260,17 @@ export default function CountryData() {
         /Typography>{" "} <
         Typography variant = "subtitle1"
         gutterBottom style = {
-            { color: "green", fontWeight: "bold" }
-        } >
+            { color: "green", fontWeight: "bold" } } >
         Recovered { " " } <
-        /Typography>{" "} < /
-        div > { " " } <
+        /Typography>{" "} <
+        /div>{" "} <
         /Paper>{" "} <
         Paper elevation = { 3 } > { " " } <
         div className = { clss.root } >
         <
-        Typography variant = "h4"
+        Typography variant = "h8"
         gutterBottom style = {
-            { color: "red" }
-        } > { " " } {
+            { color: "red" } } > { " " } {
             countryData &&
                 countryData.countrydata &&
                 countryData.countrydata[0].total_deaths
@@ -297,13 +278,12 @@ export default function CountryData() {
         /Typography>{" "} <
         Typography variant = "subtitle1"
         gutterBottom style = {
-            { color: "red", fontWeight: "bold" }
-        } >
+            { color: "red", fontWeight: "bold" } } >
         Fatalities { " " } <
-        /Typography>{" "} < /
-        div > { " " } <
-        /Paper>{" "} < /
-        div > { " " } <
+        /Typography>{" "} <
+        /div>{" "} <
+        /Paper>{" "} <
+        /div>{" "} <
         /div>
     );
 }

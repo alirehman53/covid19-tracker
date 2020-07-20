@@ -49,19 +49,17 @@ export default function GlobalData() {
         return ( <
             div >
             <
-            Typography variant = "h4"
+            Typography variant = "h8"
             gutterBottom style = {
                 { color: "black" } } > { " " } { "Global Data" } { " " } <
-            /Typography>
-
-            <
+            /Typography> <
             div className = { classes.root } >
             <
             Paper elevation = { 3 } >
             <
             div className = { clss.root } >
             <
-            Typography variant = "h4"
+            Typography variant = "h8"
             gutterBottom style = {
                 { color: "black" } } > { " " } { loading } { " " } <
             /Typography>{" "} <
@@ -76,7 +74,7 @@ export default function GlobalData() {
             <
             div className = { clss.root } >
             <
-            Typography variant = "h4"
+            Typography variant = "h8"
             gutterBottom style = {
                 { color: "orange" } } > { " " } { loading } { " " } <
             /Typography>{" "} <
@@ -90,7 +88,7 @@ export default function GlobalData() {
             Paper elevation = { 3 } > { " " } <
             div className = { clss.root } >
             <
-            Typography variant = "h4"
+            Typography variant = "h8"
             gutterBottom style = {
                 { color: "green" } } > { " " } { loading } { " " } <
             /Typography>{" "} <
@@ -104,7 +102,7 @@ export default function GlobalData() {
             Paper elevation = { 3 } > { " " } <
             div className = { clss.root } >
             <
-            Typography variant = "h4"
+            Typography variant = "h8"
             gutterBottom style = {
                 { color: "red" } } > { " " } { loading } { " " } <
             /Typography>{" "} <
@@ -115,7 +113,7 @@ export default function GlobalData() {
             /Typography>{" "} <
             /div>{" "} <
             /Paper>{" "} <
-            /div> <
+            /div>{" "} <
             /div>
         );
     }
@@ -123,19 +121,17 @@ export default function GlobalData() {
     return ( <
         div >
         <
-        Typography variant = "h4"
+        Typography variant = "h8"
         gutterBottom style = {
             { color: "black" } } > { " " } { "Global Data" } { " " } <
-        /Typography>
-
-        <
+        /Typography> <
         div className = { classes.root } >
         <
         Paper elevation = { 3 } >
         <
         div className = { clss.root } >
         <
-        Typography variant = "h4"
+        Typography variant = "h8"
         gutterBottom style = {
             { color: "black" } } > { " " } <
         NumberFormat value = {
@@ -158,7 +154,7 @@ export default function GlobalData() {
         <
         div className = { clss.root } >
         <
-        Typography variant = "h4"
+        Typography variant = "h8"
         gutterBottom style = {
             { color: "orange" } } > { " " } <
         NumberFormat value = {
@@ -180,7 +176,7 @@ export default function GlobalData() {
         Paper elevation = { 3 } > { " " } <
         div className = { clss.root } >
         <
-        Typography variant = "h4"
+        Typography variant = "h8"
         gutterBottom style = {
             { color: "green" } } > { " " } <
         NumberFormat value = {
@@ -202,7 +198,7 @@ export default function GlobalData() {
         Paper elevation = { 3 } > { " " } <
         div className = { clss.root } >
         <
-        Typography variant = "h4"
+        Typography variant = "h8"
         gutterBottom style = {
             { color: "red" } } > { " " } <
         NumberFormat value = {
@@ -221,7 +217,7 @@ export default function GlobalData() {
         /Typography>{" "} <
         /div>{" "} <
         /Paper>{" "} <
-        /div> <
+        /div>{" "} <
         /div>
     );
 }
